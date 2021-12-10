@@ -1,5 +1,5 @@
 {
-  "name": "my-vue-app",
+  "name": "vue3-development-framework",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",

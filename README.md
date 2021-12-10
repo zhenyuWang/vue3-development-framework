@@ -1,8 +1,8 @@
-# follow-up-cockpit
+# vue3 development framework
 
 ### introduction
 
-跟投驾驶舱
+vue3 basic development framework
 
 ### framework
 
