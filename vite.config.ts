@@ -18,11 +18,9 @@ export default ({ mode }: ConfigEnv): UserConfigExport => {
   );
 
   // 生产环境
-  // const proxyTarget = "https://zhgt.yuanzhiyijiantong.com";
+  // const proxyTarget = "https://xxx.com";
   // 测试环境
-  // const proxyTarget = "http://10.1.69.118:8814";
-  // 仝康本地
-  const proxyTarget = "http://10.2.53.60:8811";
+  const proxyTarget = "http://xxx.com";
   return {
     base: "./",
     server: {
