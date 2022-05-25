@@ -1,18 +1,14 @@
-// 修改滚动条样式
 * {
   &::-webkit-scrollbar {
-    /*滚动条整体样式*/
-    width: 10px; /*宽度竖滚动条的尺寸*/
-    height: 10px; /*高度横滚动条的尺寸*/
+    width: 10px;
+    height: 10px;
   }
   &::-webkit-scrollbar-thumb {
-    /*滚动条里面的条*/
     border-radius: 6px;
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
     background: #3477f2;
   }
   &::-webkit-scrollbar-track {
-    /*滚动条里面轨道*/
     border-radius: 12px;
     background: #ffffff;
   }
@@ -212,45 +208,35 @@ li {
 .flex {
   display: flex;
 }
-/* 水平 垂直 居中 */
 .flex-center {
   justify-content: center;
   align-items: center;
 }
-/* 水平 两端对齐 垂直 居中 */
 .flex-between-center {
   justify-content: space-between;
   align-items: center;
 }
-/* 垂直对齐 居中 */
 .flex-align-center {
   align-items: center;
 }
-/* 垂直对齐 底部 */
 .flex-align-bottom {
   align-items: flex-end;
 }
-/* 水平对齐 两端对齐 */
 .flex-justify-between {
   justify-content: space-between;
 }
-/* 水平对齐 项目居中对齐 */
 .flex-justify-center {
   justify-content: center;
 }
-/* 水平对齐 项目环绕对齐 */
 .flex-justify-around {
   justify-content: space-around;
 }
-/* 水平对齐 项目靠右对齐 */
 .flex-content-end {
   justify-content: flex-end;
 }
-/* 子元素垂直排列 */
 .flex-direction-column {
   flex-direction: column;
 }
-/* 子元素换行 */
 .flex-wrap {
   flex-wrap: wrap;
 }

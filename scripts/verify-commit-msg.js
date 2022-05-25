@@ -23,5 +23,6 @@ if (!commitRE.test(msg)) {
         )} to interactively generate a commit message.\n`
       )
   );
+
   process.exit(1);
 }
